@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/MityaDSCH/fcc-search/issues"
   },
-  "homepage": "https://github.com/MityaDSCH/fcc-search#readme"
+  "homepage": "https://github.com/MityaDSCH/fcc-search#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongoose": "^4.3.4",
+    "node-bing-api": "^2.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^1.2.0"
+  }
 }
