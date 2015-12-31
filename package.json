@@ -1,0 +1,20 @@
+{
+  "name": "fcc-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MityaDSCH/fcc-search.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MityaDSCH/fcc-search/issues"
+  },
+  "homepage": "https://github.com/MityaDSCH/fcc-search#readme"
+}
