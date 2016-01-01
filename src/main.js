@@ -4,7 +4,10 @@ var url = require('url');
 
 var express = require('express');
 var mongoose = require('mongoose');
-require('dotenv').load();
+
+if (process.env.NODE_ENV === 'development') {
+  require('dotenv').load();
+}
 
 var Bing = require('node-bing-api')({ accKey: process.env.BING_KEY });
 
