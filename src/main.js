@@ -59,7 +59,11 @@ app.route('/api/imagesearch/:query')
 
 app.route('/api/latest/imagesearch')
   .get(function(req, res) {
-
+    History.findOne(function(err, obj) {
+      console.log(err, obj);
+      res.json(obj.array);
+      res.end();
+    });
   });
 
 app.listen(process.env.PORT || 8080, function(req, res) {
